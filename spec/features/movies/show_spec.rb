@@ -2,8 +2,8 @@ require 'rails_helper'
 
 describe 'the movies index page', :vcr do
     before :each do
-        @user_1 = User.create!(name: 'Sam', email: 'sam_t@email.com')
-        @user_2 = User.create!(name: 'Tommy', email: 'tommy_t@gmail.com')
+        @user_1 = User.create!(username: 'Sam', password: "123", email: 'sam_t@email.com')
+        @user_2 = User.create!(username: 'Tommy', password: "123", email: 'tommy_t@gmail.com')
     
         visit user_movie_path(@user_1, id: 278)
     end

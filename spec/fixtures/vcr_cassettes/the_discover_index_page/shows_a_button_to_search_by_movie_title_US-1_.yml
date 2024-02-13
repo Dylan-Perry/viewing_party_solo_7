@@ -24,41 +24,39 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
+      Date:
+      - Mon, 12 Feb 2024 21:28:33 GMT
       Server:
       - openresty
+      Cache-Control:
+      - public, max-age=21678
       X-Memc:
       - HIT
       X-Memc-Key:
       - 0b5947bc31aeddd8f20b6f446a3fa89e
       X-Memc-Age:
-      - '23393'
+      - '581'
       X-Memc-Expires:
-      - '4568'
-      Date:
-      - Fri, 02 Feb 2024 04:51:27 GMT
-      Cache-Control:
-      - public, max-age=28411
+      - '21678'
       Etag:
       - W/"0e23279b004381f72a34159d5c7dfd1f"
       Vary:
       - Accept-Encoding
       - Origin
       X-Cache:
-      - Hit from cloudfront
+      - Miss from cloudfront
       Via:
-      - 1.1 ef3f6fb1096ef078a436775e644d75f4.cloudfront.net (CloudFront)
+      - 1.1 76bb80483235d180da221d1877407702.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - LAX50-C2
+      - LAX50-P4
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - I8hukSaEfMISbtx0mswbTIfa2P4vM5iy6VMJKbfS9X-MN9CYH5tK0g==
-      Age:
-      - '13525'
+      - exCer5-ftp0DvvY8oeLIYSfjfA-pwcaZ13gv_vLmm5lsTCO3L6WjqQ==
     body:
       encoding: ASCII-8BIT
       string: '{"page":1,"results":[],"total_pages":1,"total_results":0}'
-  recorded_at: Fri, 02 Feb 2024 08:36:52 GMT
+  recorded_at: Mon, 12 Feb 2024 21:28:34 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/search/movie?api_key=TMDB_API_KEY&include_adult=false&language=en-US&page=1&query=
@@ -83,20 +81,20 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
+      Date:
+      - Mon, 12 Feb 2024 21:28:33 GMT
       Server:
       - openresty
+      Cache-Control:
+      - public, max-age=21678
       X-Memc:
       - HIT
       X-Memc-Key:
       - 0b5947bc31aeddd8f20b6f446a3fa89e
       X-Memc-Age:
-      - '23393'
+      - '581'
       X-Memc-Expires:
-      - '4568'
-      Date:
-      - Fri, 02 Feb 2024 04:51:27 GMT
-      Cache-Control:
-      - public, max-age=28411
+      - '21678'
       Etag:
       - W/"0e23279b004381f72a34159d5c7dfd1f"
       Vary:
@@ -105,17 +103,15 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 97103436430d2d5eccb3856889cf7ecc.cloudfront.net (CloudFront)
+      - 1.1 be055b79f861ea1d938daa9fe60e73b6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - LAX50-C2
+      - LAX50-P4
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - eF04xBgWTVOvWM2G5RAf31nXViFh1f1qJ3J803u6HjDtZGxFu81QEw==
-      Age:
-      - '13525'
+      - T-Fjd3YjSc0s3J-oF5NyOvLNoSzW85niScPZlrHM8zK1qjcQrwPo-Q==
     body:
       encoding: ASCII-8BIT
       string: '{"page":1,"results":[],"total_pages":1,"total_results":0}'
-  recorded_at: Fri, 02 Feb 2024 08:36:52 GMT
+  recorded_at: Mon, 12 Feb 2024 21:28:34 GMT
 recorded_with: VCR 6.2.0
